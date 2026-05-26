@@ -1,0 +1,12 @@
+name: Check source data changes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-source-data:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scheduled check disabled
+        run: echo "This workflow has been intentionally disabled."
